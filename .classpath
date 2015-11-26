@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="F:/htmls/jackson-annotations-2.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/htmls/jackson-core-2.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/htmls/jackson-databind-2.5.3.jar"/>
+	<classpathentry kind="lib" path="F:/Download/okio-1.6.0.jar"/>
+	<classpathentry kind="lib" path="F:/Download/okhttp-2.5.0.jar"/>
+	<classpathentry kind="lib" path="F:/Android/org.apache.http.legacy.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

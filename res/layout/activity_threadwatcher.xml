@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+     
+<RelativeLayout 
+    android:id="@+id/linearlayout_threadwatcher_buttonbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal" 
+    android:layout_alignParentTop="true">
+      <Button 
+          android:id="@+id/button_threadwatcher_start"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Start"
+          android:layout_alignParentLeft="true"
+          android:layout_marginLeft="20dp"
+          />
+      
+      <TextView 
+          android:id="@+id/textview_threadwatcher_counter"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:text="0"
+          android:padding="10dp"
+          android:background="@color/AliceBlue"
+          
+          />
+      
+      </RelativeLayout>
+    
+    
+    
+    <ListView
+        android:id="@+id/activity_threadwatcher_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/linearlayout_threadwatcher_buttonbar">
+    </ListView>
+
+</RelativeLayout>

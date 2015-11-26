@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hachi Browser</string>
+    <string name="Refresh">Refresh</string>
+    <string name="NoInternet">It looks like there is no internet connection available.</string>
+    <string name="Refreshing">Refreshing#8230</string>
+    <string name="FavBoards">Favourite\nBoards</string>
+    <string name="Boards">Boards</string>
+    <string name="SavedThreads">Saved Threads</string>
+    <string name="ThreadWatcher">Thread\nWatcher</string>
+    <string name="Settings">Settings</string>
+    <string name="About">About</string>
+    <string name="Attachment">Poster\'s attachment</string>
+    <string name="Image">Image</string>
+    <string name="SaveLocation">Location to save</string>
+    <string name="Parse_implementation">Parse mode:</string>  
+    <string name="ParseHelp"> Jsoup is slower, eats more memory, but supposed to be more stable. Atomic is the opposite.</string> 
+    <string name="SetLocation">Set Location&#8230;</string>
+    <string name="delete_row">Delete this item</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_save_thread">Save Thread</string>
+    <string name="menu_test">Test</string>
+    <string name="threadatcher_button_start">Start ThreadWatcher</string>
+    <string name="threadatcher_button_stop">Stop ThreadWatcher</string>
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_help">Help</string> 
+    <string name="action_subjectonly">Subject only</string> 
+    <string name="action_save">Save thread</string>
+    <string-array name="settings_parsemode">
+        <item>Jsoup</item>
+        <item>Atomic</item>
+    </string-array>
+    
+    <!-- <string name=""></string> -->
+    
+    
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:infchandroid="http://schemas.android.com/apk/res-auto" >
+
+     <!-- Search Widget -->
+    <item
+        android:id="@+id/action_catalog_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/action_search"
+        infchandroid:actionViewClass="android.widget.SearchView"
+        infchandroid:showAsAction="collapseActionView|ifRoom"/>
+    
+    <!-- Refresh -->
+    <item
+        android:id="@+id/action_catalog_refresh"
+        android:icon="@drawable/ic_refresh"
+        infchandroid:showAsAction="ifRoom"
+        android:title="@string/action_refresh"/>
+    
+  
+    
+    
+    <!-- Halp Button -->
+    <item
+        android:id="@+id/action_catalog_help"
+        android:icon="@drawable/ic_help"
+        android:title="@string/action_help"
+        infchandroid:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#AAAAAA">
+
+    
+
+        <RelativeLayout
+            android:id="@+id/settings_relative1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/settings_textview_saveloc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SaveLocation" />
+
+            <TextView
+                android:id="@+id/settings_textview_currentLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/settings_textview_saveloc" />
+
+            <Button
+                android:id="@+id/settings_button_setlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/settings_textview_saveloc"
+                
+                android:text="@string/SetLocation" />
+
+          
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp" 
+            android:layout_below="@id/settings_relative1"
+            android:layout_centerInParent="true">
+        </LinearLayout>
+    
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/threadeow_linear_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_gravity="left">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/threadrow_image1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/Attachment"
+            android:scaleType="fitCenter"
+            android:visibility="invisible" />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/threadrow_image2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/Attachment"
+            android:scaleType="fitCenter"
+            android:visibility="invisible" />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/threadrow_image3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/Attachment"
+            android:scaleType="fitCenter"
+            android:visibility="invisible" />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/threadrow_image4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/Attachment"
+            android:scaleType="fitCenter"
+            android:visibility="invisible" />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/threadrow_image5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/Attachment"
+            android:scaleType="fitCenter"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/threadRow_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/threadRow_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/threadRow_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/threadRow_messagecounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/threadRow_replies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cocc" />
+
+    <TextView
+        android:id="@+id/threadRow_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
